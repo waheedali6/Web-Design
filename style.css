@@ -1,0 +1,2128 @@
+/* ------------------header------------------ */
+header {
+    background: url(images/header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+/*----------------- navbar ------------------*/
+
+.container-fluid {
+    padding: 0;
+}
+
+.navbar-brand {
+    margin-top: 1.51vw;
+}
+
+.navbar-brand img {
+    height: 6.42vw;
+}
+
+.navlist {
+    justify-content: end;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0 !important;
+}
+
+.navbar ul li a {
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    margin-left: 1.5vw;
+    font-size: 1.51vw;
+    transition: 0.3s;
+}
+
+.navbar ul .signin {
+    background-color: black;
+    border-radius: 40px;
+    padding: 0.3vw 1vw;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.navbar ul .signin:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #00a01d;
+}
+
+
+
+
+
+
+
+
+
+
+/* --------------------home-------------------- */
+.home {
+    padding: 20px 0;
+}
+
+
+.home .home-h1 {
+    color: black !important;
+    margin-bottom: 5px;
+}
+
+.home h1 {
+    margin-bottom: 16px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: -0.2vw;
+}
+
+
+.home-p,
+.icon-p {
+    font-family: 'poppins';
+    font-style: normal;
+    font-size: 17px;
+    line-height: 35px;
+    color: white;
+}
+
+.icon-p {
+    margin-bottom: 5px;
+    font-family: 'poppins';
+    font-style: normal;
+}
+
+.fa-check-double {
+    font-size: 18px;
+    background-color: #000;
+    color: yellow;
+    padding: 5px;
+    margin-left: 7px;
+    border-radius: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------------card------------------ */
+.cardSec {
+    background-color: #000;
+}
+
+.cardSec p {
+    font-family: 'poppins';
+    font-style: normal;
+    margin: 0;
+    color: #fff;
+    font-size: 1.48vw;
+}
+
+.cardSec .card {
+    background: none;
+    padding: 0 0.76vw;
+}
+
+.cardSec .card img {
+    height: 4.45vw;
+}
+
+.cardSec .card-items {
+    display: flex;
+    align-items: center;
+    padding-top: 1.51vw;
+    margin-bottom: 1.132vw;
+    border-right: 0.2vw solid white;
+    border-radius: 0;
+    margin-left: 0.6vw;
+}
+
+.cardSec #card-item-3 {
+    border: none;
+}
+
+.cardSec .card-body {
+    padding: 0;
+    margin-left: 1.132vw;
+}
+
+
+
+
+
+
+
+
+/* ----------------com-section---------------- */
+.com-section {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.com-section h1 {
+    font-family: 'poppins';
+    font-style: normal;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.com-section p {
+    font-family: 'poppins';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.com-section .btn-warning {
+    font-family: 'poppins';
+    font-style: normal;
+    background-color: #FAD600;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 6px 20px;
+    border: none;
+}
+
+.com-section .btn-warning:hover {
+    background-color: #00a01d;
+    color: white;
+}
+
+.com-section .img-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* --------------group-section-------------- */
+
+.group-section {
+    padding: 61px 0;
+    background: url(images/color-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.group-section h5 {
+    font-family: 'poppins';
+    font-style: normal;
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.group-section h2 {
+    font-family: 'poppins';
+    font-style: normal;
+    color: #3AEC51;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.group-section p {
+    font-family: 'poppins';
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.group-section .btn-group {
+    font-family: 'poppins';
+    font-style: normal;
+    background-color: #FAD600;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+.group-section .btn-group:hover {
+    background-color: #00a01d;
+    color: white;
+}
+
+.group-section .fa-message {
+    margin: 6px 5px;
+    font-size: 18px;
+}
+
+.group-section .img-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* ----------------team-section---------------- */
+.team-section {
+    background-color: #f7f7f7;
+    padding: 35px 0;
+}
+
+.team-section span {
+    color: #3AEC51;
+}
+
+.team-section h3 {
+    font-family: 'poppins';
+    font-style: normal;
+    font-size: 46px;
+    font-weight: bold;
+    margin-top: 46px;
+    margin-bottom: 20px;
+}
+
+.team-section p {
+    font-family: 'poppins';
+    font-style: normal;
+    color: black;
+    margin: 0;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.team-section .img-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* ---------------port-section--------------- */
+.port-section {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.port-section h1 {
+    font-family: 'poppins';
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 15px 0px;
+}
+
+.port-section .nav-tabs {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.port-section .nav-link.active {
+    background-color: #00a01d;
+    color: black;
+}
+
+.port-section h2 {
+    font-family: 'poppins';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 15px 0px;
+}
+
+.port-section p {
+    font-family: 'poppins';
+    font-style: normal;
+    font-size: 17px;
+}
+
+.port-section span {
+    color: #3AEC51;
+}
+
+.port-section img {
+    transition: 0.5s;
+}
+
+.port-section img:hover {
+    transform: scale(1.1);
+}
+
+.port-section .col-md-4 {
+    padding: 12px !important;
+}
+
+.port-section .nav-link {
+    background-color: #000;
+    color: #fff;
+    padding: 9px 35px;
+    margin: 30px auto;
+    border-radius: 40px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-size: 17px;
+}
+
+.port-section #myTab {
+    border: none;
+}
+
+
+
+
+
+/* --------------contact-section-------------- */
+
+.contact-section {
+    padding: 40px 0px;
+    background: url(images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-section .text {
+    color: #fff;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.contact-section h1 {
+    font-size: 38px;
+}
+
+.contact-section h2 {
+    font-size: 24px;
+}
+
+.contact-section h3 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.contact-section .fa-message {
+    position: relative;
+    top: 3px;
+}
+
+.contact-section .fa-solid {
+    margin-top: 40px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.contact-section p {
+    color: #fff;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.contact-section .btn {
+    padding: 5px 10px;
+    border-radius: 40px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.contact-section .btn-outline-primary {
+    border: 2px solid white;
+    color: white;
+}
+
+.contact-section .btn-outline-primary:hover {
+    border: 2px solid white;
+    color: black;
+    background-color: white;
+}
+
+.contact-section .btn-outline-success {
+    border: 2px solid black;
+    color: black;
+}
+
+.contact-section .btn-outline-success:hover {
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+}
+
+
+
+
+
+
+/* ---------------price-section--------------- */
+.price-section {
+    padding: 50px 0;
+    background: url(images/price-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.price-section .texth1 {
+    font-size: 40px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 700;
+    color: #3AEC51;
+}
+
+.price-section .textp {
+    font-size: 20px;
+    margin: 20px 0;
+    color: #000;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.price-section .row {
+    margin: 70px 0 0 0;
+}
+
+.price-section #card1 {
+    background-color: #fff;
+}
+
+.price-section #card2 {
+    background-color: #000;
+}
+
+.price-section #card3 {
+    background-color: #fff;
+}
+
+.color {
+    color: #fff !important;
+}
+
+.price-section .card {
+    margin: 0 auto;
+    width: 30.1%;
+    box-shadow: 0 0 50px -26px black;
+    border: none;
+    border-radius: 0.9vw;
+    padding: 0;
+}
+
+.price-section .card-body {
+    padding: 0;
+}
+
+.price-section .card h1 {
+    font-size: 2.93vw;
+    margin: 2.2vw 0;
+}
+
+.price-section .price {
+    background-color: #3AEC51;
+    display: flex;
+    align-items: center;
+}
+
+.price-section .real-price {
+    font-size: 4.4vw;
+    padding: 0.37vw 3.4vw 0.37vw 1.84vw;
+    font-family: 'poppins';
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+    border-right: 0.2vw solid #fff;
+}
+
+.price-section .discount {
+    font-size: 1.1vw;
+    padding-left: 2.57vw;
+    margin: 0;
+    color: #fff;
+    font-family: 'poppins';
+    font-style: normal;
+
+}
+
+.price-section .price span {
+    font-size: 2.93vw;
+    text-decoration-line: line-through;
+}
+
+.price-section .plan {
+    padding: 1.51vw;
+}
+
+.price-section .plan .icon {
+    padding: 0.38vw;
+    margin: 0.38vw 0.38vw 0.38vw 0;
+    background-color: #000;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-section .plan .fa-solid {
+    font-size: 0.74vw;
+    color: #fff;
+}
+
+.price-section .plan p {
+    font-size: 1.18vw;
+    margin-bottom: 0.74vw;
+}
+
+.price-section .plan span {
+    font-size: 1.18vw;
+}
+
+.price-section .plan ul {
+    padding: 1.51vw;
+    list-style: none;
+    border-radius: 1.51vw;
+    margin-bottom: 1.21vw;
+    background-color: #eee;
+}
+
+.price-section .plan li {
+    display: flex;
+    align-items: center;
+    line-height: 1.8vw;
+}
+
+.price-section .plan .btn {
+    font-size: 1.1vw;
+    padding: 0.5vw 0;
+    width: 100%;
+    color: #fff;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #3AEC51;
+    border-color: #3AEC51;
+}
+
+.price-section .plan .box {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.1vw 0.74vw 0 0.74vw;
+}
+
+.price-section .box a {
+    font-size: 0.96vw !important;
+}
+
+.price-section .box h5,
+.price-section .box a {
+    font-size: 1.1vw;
+    text-decoration: none;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+/* ----------------form-section---------------- */
+.form-section {
+    padding: 75px 0px;
+    background: url(images/form-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-section .fa-solid {
+    font-size: 45px;
+    color: #fff;
+}
+
+.form-section .card {
+    margin: 45px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    background: transparent;
+}
+
+.form-section .card-title {
+    font-size: 25px;
+    color: #fff;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.form-section .card-text {
+    font-size: 15px;
+    color: #fff;
+    font-family: 'poppins';
+    font-style: normal;
+}
+
+.form-section .heading {
+    font-size: 40px;
+    color: #fff;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+.form-section .para {
+    font-size: 18px;
+    color: #fff;
+    font-family: 'poppins';
+    font-style: normal;
+}
+
+.form-section .form-box {
+    padding: 30px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.form-section input,
+.form-section textarea {
+    margin: 3px 0px;
+    border-radius: 20px;
+}
+
+.form-section .mb-3 {
+    margin: 0 !important;
+}
+
+.form-section .form-text {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #000;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.form-section input[type="submit"] {
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: #000;
+    color: #fff;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+
+
+/* --------------carousel-section-------------- */
+.carousel-section .carousel {
+    height: 300px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.carousel-section .carousel-item img {
+    height: 100px;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+}
+
+.carousel-section .carousel-item .bio {
+    font-size: 18px;
+    margin: 10px 180px;
+    font-family: 'poppins';
+    font-style: normal;
+}
+
+.carousel-section .carousel-item .name {
+    font-size: 15px;
+    margin: 15px 0;
+    color: #3AEC51;
+    font-family: 'poppins';
+    font-style: normal;
+}
+
+.carousel-section .carousel-indicators [data-bs-target] {
+    background-color: #000;
+}
+
+.carousel-section .carousel-control-prev-icon,
+.carousel-section .carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+
+
+
+
+/* ---------------footer-section--------------- */
+.upper-footer {
+    background: url(images/color-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 74px 0;
+}
+
+.upper-footer img {
+    height: 90px;
+}
+
+.footer-text {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'poppins';
+    font-style: normal;
+    margin-top: 30px;
+}
+
+.upper-footer .h-p {
+    color: #3AEC51;
+    font-size: 25px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.upper-footer .h-s {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'poppins';
+    font-style: normal;
+    margin-top: 15px;
+}
+
+.upper-footer-row {
+    justify-content: space-between;
+}
+
+.upper-footer input {
+    border-radius: 20px;
+}
+
+.lastFooter {
+    background-color: #3AEC51;
+}
+
+.lastFooter .row {
+    align-items: center;
+}
+
+.lastFooter p {
+    font-size: 20px;
+    color: #fff;
+    font-family: 'poppins';
+    font-style: normal;
+    margin: 0;
+}
+
+.lastFooter ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 0;
+}
+
+.lastFooter ul li i {
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+    margin: 18px 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------utility------------------- */
+.end {
+    text-align: end;
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/******************** Logo Design Page **********************/
+
+/* --------------brand-section-------------- */
+.brand-section {
+    padding: 100px 0px;
+}
+
+.brand-section h1 {
+    font-family: 'poppins';
+    font-style: normal;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px;
+    margin: 0;
+}
+
+.brand-section p {
+    font-family: 'poppins';
+    font-style: normal;
+    font-size: 20px;
+    margin: 30px 0px;
+}
+
+.brand-section .btn {
+    background-color: #FAD600;
+    border: none;
+    color: #000;
+    font-family: 'poppins';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+
+.brand-section .btn:hover {
+    background-color: #00a01d;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+/* --------------services-section-------------- */
+.services-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.services-section hr {
+    width: 40px;
+    margin: auto;
+}
+
+.services-section h1 {
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.services-section .row {
+    margin-top: 30px;
+}
+
+.services-section span {
+    color: #3AEC51;
+}
+
+.services-section .p1 {
+    font-size: 20px;
+    font-family: 'poppins';
+    font-style: normal;
+
+    margin-bottom: 30px;
+}
+
+.services-section .service-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-box {
+    background-color: #fff;
+    padding: 60px 25px;
+    width: 31.58%;
+    margin: 15px auto;
+    box-shadow: 0px 0px 15px -10px black;
+}
+
+.service-box .fa-solid {
+    background-color: #00a01d;
+    color: #fff;
+    padding: 20px;
+    border-radius: 100%;
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+.service-box h4 {
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.service-box hr {
+    margin-bottom: 10px;
+}
+
+
+
+
+/* ---------dealer-section------------- */
+.dealer-section {
+    background: url(images/form-bg.png)no-repeat center center/cover;
+    background-attachment: fixed;
+    padding: 150px 0px;
+}
+
+.dealer-section h1 {
+    font-family: 'poppins';
+    font-style: normal;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.dealer-section p {
+    font-family: 'poppins';
+    font-style: normal;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.dealer-section .btn {
+    font-family: 'poppins';
+    font-style: normal;
+    font-size: 18px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.dealer-section .btn:hover {
+    color: #fff;
+    background-color: #00a01d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* **************************media************************ */
+
+@media (max-width:1200px) {
+
+    /* ----------------form-section---------------- */
+    .form-section .form-box {
+        width: 70%;
+    }
+
+
+
+
+
+    /******************** Logo Design Page **********************/
+    /* --------------services-section-------------- */
+    .service-box {
+        padding: 55px 20px;
+        margin: 10px 8px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:991px) {
+    .navbar ul {
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 15px !important;
+    }
+
+    .navbar ul li {
+        margin: 0 0 10px 0;
+    }
+
+    .navbar ul li a {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .navbar ul .signin {
+        padding: 2px 15px
+    }
+
+    .navbar-brand img {
+        height: 50px;
+    }
+
+    
+
+    /* -----------------home-------------- */
+    .home h1 {
+        margin-bottom: 15px;
+        font-size: 45px;
+    }
+
+    .home-p,
+    .icon-p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .fa-check-double {
+        font-size: 17px;
+        padding: 4px;
+    }
+
+
+
+    /* --------------cardSec--------------- */
+    .cardSec .card-items {
+        margin-left: 0;
+    }
+
+    .cardSec .card img {
+        height: 42px;
+    }
+
+    .cardSec p {
+        font-size: 14px;
+    }
+
+    .cardSec .card-body {
+        margin-left: 6px;
+    }
+
+    .cardSec .card-items {
+        padding-top: 14px;
+        margin-bottom: 11px;
+    }
+
+
+    /* -------------comSec--------------- */
+    .com-section {
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
+
+    .com-section h1 {
+        font-size: 2.1rem;
+        margin-bottom: 10px;
+    }
+
+    .com-section p {
+        font-size: 17px;
+        line-height: 26px;
+        margin-bottom: 16px;
+    }
+
+    .com-section .btn-warning {
+        font-size: 17px;
+    }
+
+
+    /* --------------groupSec--------------- */
+    .group-section {
+        padding: 40px 0;
+    }
+
+    .group-section h5 {
+        font-size: 28px;
+    }
+
+    .group-section h2 {
+        font-size: 37px;
+    }
+
+    .group-section p {
+        font-size: 17px;
+        line-height: 22px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .group-section .btn-group {
+        font-size: 17px;
+    }
+
+
+
+    /* ---------------teamSec---------------- */
+    .team-section {
+        padding: 40px 0;
+    }
+
+    .team-section h3 {
+        font-size: 32px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .team-section p {
+        font-family: 'poppins';
+        font-style: normal;
+        color: black;
+        margin: 0;
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+
+    /* ---------------port-section--------------- */
+    .port-section {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    .port-section h1 {
+        font-size: 40px;
+        margin: 10px 0px
+    }
+
+    .port-section p {
+        font-size: 15px;
+    }
+
+    .port-section h2 {
+        font-family: 'poppins';
+        font-style: normal;
+        font-size: 30px;
+        font-weight: bold;
+        margin: 10px 0px;
+    }
+
+    .port-section .nav-link {
+        padding: 6px 16px;
+        margin: 20px auto;
+        font-size: 15px;
+    }
+
+    .port-section .col-md-4 {
+        padding: 5px !important;
+    }
+
+
+
+    /* --------------contact-section-------------- */
+    .contact-section h2 {
+        font-size: 19px;
+    }
+
+    .contact-section h1 {
+        font-size: 28px;
+    }
+
+    .contact-section h3 {
+        font-size: 16px;
+    }
+
+    .contact-section .btn {
+        font-size: 14px;
+    }
+
+    .contact-section .fa-solid {
+        margin-top: 30px;
+        font-size: 18px;
+    }
+
+    .contact-section p {
+        font-size: 16px;
+    }
+
+
+    /* --------------price-section-------------- */
+    .price-section {
+        padding: 40px 0;
+    }
+
+    .price-section .row {
+        margin: 40px 0 0 0;
+    }
+
+    .price-section .texth1 {
+        font-size: 32px;
+    }
+
+    .price-section .textp {
+        font-size: 17px;
+        margin: 17px 0;
+    }
+
+    .price-section .card h1 {
+        font-size: 23px;
+        margin: 15px 0;
+    }
+
+    .price-section .real-price {
+        font-size: 35px;
+        padding: 3px 30px 3px 20px;
+    }
+
+    .price-section .discount {
+        font-size: 9px;
+        padding-left: 20px;
+    }
+
+    .price-section .price span {
+        font-size: 25px;
+    }
+
+    .price-section .plan {
+        padding: 13px;
+    }
+
+    .price-section .plan p {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .price-section .plan ul {
+        padding: 13px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .price-section .plan .btn {
+        font-size: 10px;
+        padding: 4px 0;
+    }
+
+    .price-section .box h5 {
+        font-size: 9px;
+    }
+
+    .price-section .box a {
+        font-size: 8px !important;
+    }
+
+    .price-section .plan .box {
+        margin: 10px 7px 0 7px;
+    }
+
+    .price-section .plan .icon {
+        padding: 4px;
+        margin: 4px 4px 4px 0;
+    }
+
+    .price-section .plan span {
+        font-size: 10px;
+    }
+
+    .price-section .plan li {
+        line-height: 22px;
+    }
+
+
+
+    /* ----------------form-section---------------- */
+    .form-section {
+        padding: 65px 0;
+    }
+
+    .form-section .form-box {
+        width: 75%;
+        padding: 25px;
+    }
+
+    .form-section .heading {
+        font-size: 32px;
+    }
+
+    .form-section .para {
+        font-size: 16px;
+    }
+
+    .form-section .card-title {
+        font-size: 20px;
+    }
+
+    .form-section .card-text {
+        font-size: 12px;
+    }
+
+    .form-section .fa-solid {
+        font-size: 35px;
+    }
+
+    .form-section .card {
+        margin: 35px 0px
+    }
+
+    .form-section .form-text {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .form-section .form-control {
+        font-size: 14px;
+        padding: 3px 10px;
+    }
+
+    .form-section input[type="submit"] {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+
+
+    /* --------------carousel-section-------------- */
+    .carousel-section .carousel-item img {
+        height: 80px;
+    }
+
+    .carousel-section .carousel-item .name {
+        font-size: 13px;
+        margin: 10px 0;
+    }
+
+    .carousel-section .carousel-item .bio {
+        font-size: 16px;
+        margin: 10px 75px;
+    }
+
+
+
+    /* ---------------footer-section--------------- */
+    .upper-footer {
+        padding: 42px 0px;
+    }
+
+    .upper-footer img {
+        height: 65px;
+    }
+
+    .footer-text {
+        font-size: 17px;
+        margin-top: 20px;
+    }
+
+    .upper-footer .h-p {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .upper-footer .h-s {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+
+    footer .form-control {
+        padding: 5px 15px 5px 15px;
+    }
+
+    .lastFooter p {
+        font-size: 17px;
+    }
+
+    .lastFooter ul li i {
+        font-size: 17px;
+        margin: 15px 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /************** Logo Design Page ****************/
+    /* --------------brand-section-------------- */
+    .brand-section {
+        padding: 70px 0px;
+    }
+
+    .brand-section h1 {
+        font-size: 32px;
+        line-height: 45px;
+    }
+
+    .brand-section p {
+        font-size: 17px;
+        margin: 15px 0px;
+    }
+
+    .brand-section .btn {
+        font-size: 17px;
+    }
+
+
+    /* --------------services-------------- */
+    .service-box {
+        padding: 40px 15px;
+        margin: 6px auto;
+    }
+
+    .services-section h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .services-section .p1 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .service-box .fa-solid {
+        padding: 15px;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    .service-box h4 {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .service-box hr {
+        margin-bottom: 7px;
+    }
+
+    .service-box .p2 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    /* ------------- dealer-section----------- */
+    .dealer-section {
+        padding: 120px 0;
+    }
+
+    .dealer-section h1 {
+        font-size: 40px;
+    }
+
+    .dealer-section p {
+        font-size: 17px;
+        margin-right: 235px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .dealer-section .btn {
+        font-size: 15px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:767px) {
+
+    /* ------------------home------------------ */
+    .home h1 {
+        font-size: 35px;
+    }
+
+    .home-p,
+    .icon-p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .fa-check-double {
+        font-size: 16px;
+    }
+
+
+    /* ---------------cardSec---------------- */
+    .cardSec .card img {
+        height: 50px;
+    }
+
+    .cardSec p {
+        font-size: 16px;
+    }
+
+    .cardSec .card {
+        padding: 0 10px;
+    }
+
+    .cardSec .card-items {
+        padding-top: 18px;
+        margin-bottom: 15px;
+        margin-left: 18px;
+    }
+
+    .cardSec .card-body {
+        margin-left: 10px;
+    }
+
+    .cardSec .lastCard .card-items {
+        border-right: 0.2vw solid #fff !important;
+    }
+
+
+
+    /* --------------groupSec--------------- */
+    .group-section .row {
+        gap: 40px;
+    }
+
+
+
+    /* ----------------teamSec---------------- */
+    .team-section .row {
+        gap: 40px;
+    }
+
+
+    /* ---------------port-section--------------- */
+    .port-section {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .port-section .nav-tabs {
+        flex-wrap: wrap;
+    }
+
+    .port-section h1 {
+        font-size: 39px;
+    }
+
+    .port-section .nav-link {
+        padding: 8px 20px;
+        margin: 20px 0 15px 3px;
+    }
+
+
+    /* --------------contact-section-------------- */
+    .contact-section .btn {
+        margin-top: 30px;
+    }
+
+    .contact-section .fa-solid {
+        margin-top: 16px;
+        font-size: 16px;
+    }
+
+    .contact-section p {
+        margin: 0;
+    }
+
+
+
+    /* --------------price-section-------------- */
+    .price-section .texth1 {
+        font-size: 27px;
+    }
+
+    .price-section .textp {
+        font-size: 15px;
+        margin: 15px 0;
+    }
+
+    .price-section .card h1 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .price-section .real-price {
+        font-size: 25px;
+        padding: 2px 25px 2px 13px;
+    }
+
+    .price-section .discount {
+        font-size: 6px;
+        padding-left: 20px;
+    }
+
+    .price-section .price span {
+        font-size: 15px;
+    }
+
+    .price-section .plan {
+        padding: 7px;
+    }
+
+    .price-section .plan p {
+        font-size: 8px;
+        margin-bottom: 3px;
+    }
+
+    .price-section .plan ul {
+        padding: 7px;
+        margin-bottom: 3px;
+    }
+
+    .price-section .plan .icon {
+        padding: 3px;
+        margin: 3px 3px 3px 0;
+    }
+
+    .price-section .plan span {
+        font-size: 8px;
+    }
+
+    .price-section .plan li {
+        line-height: 17px;
+    }
+
+    .price-section .plan .btn {
+        font-size: 8px;
+        padding: 3px 0;
+    }
+
+    .price-section .box h5 {
+        font-size: 7px;
+    }
+
+    .price-section .box a {
+        font-size: 6px !important;
+    }
+
+    .price-section .plan .box {
+        margin: 7px 5px 0 5px;
+    }
+
+
+
+
+    /* ----------------form-section---------------- */
+    .form-section {
+        padding: 50px 0;
+    }
+
+    .form-section .card {
+        margin: 20px 0px;
+    }
+
+    .form-section .form-box {
+        width: 16rem;
+    }
+
+
+
+    /* --------------carousel-section-------------- */
+    .carousel-section .carousel-control-prev-icon,
+    .carousel-section .carousel-control-next-icon {
+        display: none;
+    }
+
+    .carousel-section .carousel-item .bio {
+        font-size: 16px;
+        margin: 15px 0 25px 0;
+    }
+
+
+
+    /* ---------------footer-section--------------- */
+
+    .upper-footer-row {
+        gap: 20px 0;
+    }
+
+    footer .form-control {
+        width: 60%;
+    }
+
+
+
+
+
+
+
+    /************** Logo Design Page ****************/
+    /* --------------services-------------- */
+    .service-box {
+        width: 47.7%;
+    }
+
+    /* -----------------dealer----------------- */
+    .dealer-section {
+        padding: 90px 0;
+    }
+
+    .dealer-section h1 {
+        font-size: 32px;
+    }
+
+    .dealer-section p {
+        font-size: 16px;
+        margin-right: 146px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .dealer-section .btn {
+        font-size: 13px;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:575px) {
+
+    /* ------------------header-------------------- */
+    header {
+        background-position: center;
+        background-size: 94rem;
+    }
+
+    /* ------------------navbar------------------ */
+    .nav-section::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 5.3rem;
+        width: 100%;
+        background-color: #000;
+        opacity: 0.5;
+    }
+
+    .navbar .navbar-toggler {
+        border-color: white;
+    }
+
+    .navbar .navbar-toggler-icon {
+        filter: invert(100%);
+    }
+
+
+
+    /* --------------------home-------------------- */
+    .home {
+        padding: 50px 0 30px 0;
+    }
+
+    .home h1 {
+        font-size: 8.6vw;
+    }
+
+    .home-h2 {
+        margin-bottom: 5vw !important;
+    }
+
+    .home-p,
+    .icon-p {
+        font-size: 3.5vw;
+        line-height: 4.5vw;
+    }
+
+    .home-p {
+        margin-bottom: 5vw !important;
+    }
+
+    .fa-check-double {
+        font-size: 4vw;
+        padding: 1vw;
+        margin-left: 2vw;
+    }
+
+
+
+    /* -----------------cardSec--------------- */
+    .cardSec .card img {
+        height: 11vw;
+    }
+
+    .cardSec p {
+        font-size: 3.5vw;
+    }
+
+    .cardSec .card-items {
+        padding-top: 4vw;
+        margin-bottom: 3vw;
+        margin-left: 3vw;
+    }
+
+    .cardSec .card-body {
+        margin-left: 2vw;
+    }
+
+
+    /* ---------------priceSec-------------- */
+    .price-section .row {
+        margin: 30px 0 0 0;
+        gap: 8vw;
+    }
+
+    .price-section .texth1 {
+        font-size: 25px;
+    }
+
+    .price-section .textp {
+        font-size: 14px;
+    }
+
+    .price-section .card {
+        width: 80%;
+        border-radius: 1.9vw
+    }
+
+    .price-section .card h1 {
+        font-size: 8vw;
+        margin: 4vw 0px;
+    }
+
+    .price-section .real-price {
+        font-size: 12vw;
+        padding: 1vw 12vw 1vw 7vw;
+    }
+
+    .price-section .price span {
+        font-size: 8vw;
+    }
+
+    .price-section .discount {
+        font-size: 2.5vw;
+        padding-left: 11vw;
+    }
+
+    .price-section .plan {
+        padding: 4vw;
+    }
+
+    .price-section .plan ul {
+        padding: 4vw;
+        margin-bottom: 2vw;
+    }
+
+    .price-section .plan p {
+        font-size: 3vw;
+        margin-bottom: 1vw;
+    }
+
+    .price-section .plan .fa-solid {
+        font-size: 2vw;
+    }
+
+    .price-section .plan .icon {
+        padding: 1vw;
+        margin: 1vw 1vw 1vw 0;
+    }
+
+    .price-section .plan span {
+        font-size: 3vw;
+    }
+
+    .price-section .plan li {
+        line-height: 6vw;
+    }
+
+    .price-section .plan .btn {
+        font-size: 3vw;
+        padding: 1vw 0;
+    }
+
+    .price-section .box h5 {
+        font-size: 3vw;
+    }
+
+    .price-section .box a {
+        font-size: 2.5vw !important;
+    }
+
+    .price-section .plan .box {
+        margin: 3vw 2vw 0 2vw;
+    }
+
+
+    /* --------------carousel-section-------------- */
+    .carousel-section .carousel-item .bio {
+        font-size: 16px;
+        margin: 15px 0 40px 0;
+    }
+
+    .carousel-section .carousel-indicators {
+        margin: 0;
+
+    }
+
+
+    /* ---------------footer-section--------------- */
+    footer .form-control {
+        width: 70%;
+    }
+
+    .lastFooter p {
+        font-size: 2.96vw;
+    }
+
+    .lastFooter ul li i {
+        font-size: 2.96vw;
+        margin: 3vw 3vw;
+    }
+
+
+
+
+
+
+
+    /************** Logo Design Page ****************/
+    /* --------------brand-section-------------- */
+    .brand-section {
+        padding: 40px 0px;
+    }
+
+
+    /* ---------------services--------------- */
+    .services-section {
+        padding: 40px 0;
+    }
+
+    .services-section h1 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    .services-section .p1 {
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+
+    /* ----------------dealerSec--------------- */
+    .dealer-section {
+        padding: 80px 0;
+    }
+
+    .dealer-section h1 {
+        font-size: 26px;
+    }
+
+    .dealer-section p {
+        margin-right: 0;
+    }
+}
